@@ -1,24 +1,14 @@
-# NYOM
+# Template praticien V1
 
-Site vitrine statique de NYOM.
+3 pages : Accueil, Le soin, Rendez-vous.
 
-## Positionnement
+## À personnaliser
+Modifier uniquement `config/site.config.json` et remplacer les fichiers du dossier `assets/`.
 
-**NYOM**  
-**Écouter. Comprendre. Accompagner.**  
-*Une approche énergétique personnalisée issue de la méthode NIJI.*
+Assets attendus : `logo.png`, `hero.jpg`, `soin.jpg`, `soin.mp3`.
 
-## Déploiement
+## Déploiement Netlify
+Aucune commande de build. Publish directory : `.`
 
-Le site est prévu pour être déployé sur Netlify directement depuis la branche `main`.
-
-- Build command : aucune
-- Publish directory : `.`
-- Fichier principal : `index.html`
-
-## Mise à jour
-
-1. Modifier `index.html`
-2. Commit
-3. Push sur `main`
-4. Netlify redéploie automatiquement
+## Règle d’industrialisation
+Le prochain site doit être créé en changeant la configuration et les assets, sans modifier le HTML/CSS/JS sauf besoin générique à reporter dans le template.

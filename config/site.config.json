@@ -1,0 +1,91 @@
+{
+  "brand": {
+    "name": "NYOM",
+    "tagline": "Écouter. Comprendre. Accompagner.",
+    "subtitle": "Une approche énergétique personnalisée issue de la méthode NIJI.",
+    "logo": "assets/logo.png"
+  },
+  "theme": {
+    "primary": "#4f46a5",
+    "secondary": "#2686a8",
+    "accent": "#d77a31",
+    "text": "#18191c",
+    "muted": "#676b72"
+  },
+  "home": {
+    "heroImage": "assets/hero.jpg",
+    "approachTitle": "Une approche structurée, sans être figée.",
+    "approachText1": "Chaque séance est un accompagnement énergétique personnalisé, construit à partir de votre ressenti et des outils de la méthode NIJI.",
+    "approachText2": "Chaque séance s’inscrit dans un protocole structuré issu de la méthode NIJI, adapté à votre ressenti et à votre situation."
+  },
+  "care": {
+    "enabled": true,
+    "title": "Déroulement d’un soin",
+    "image": "assets/soin.jpg",
+    "audio": "assets/soin.mp3",
+    "audioLabel": "Écouter le déroulement d’un soin",
+    "audioMaxMinutes": 2,
+    "steps": [
+      {
+        "title": "Avant la séance",
+        "text": "Un temps d’accueil et d’échange permet de poser le cadre de la séance."
+      },
+      {
+        "title": "Pendant la séance",
+        "text": "Le protocole NIJI guide les différentes étapes du soin."
+      },
+      {
+        "title": "Après la séance",
+        "text": "Un temps de retour permet de clôturer la séance tranquillement."
+      }
+    ]
+  },
+  "reviews": {
+    "enabled": true,
+    "provider": "Google",
+    "ratingLabel": "★★★★★",
+    "viewUrl": "",
+    "leaveUrl": "",
+    "items": [
+      {
+        "author": "Prénom",
+        "text": "Témoignage à remplacer."
+      },
+      {
+        "author": "Prénom",
+        "text": "Deuxième témoignage à remplacer."
+      },
+      {
+        "author": "Prénom",
+        "text": "Troisième témoignage à remplacer."
+      }
+    ]
+  },
+  "booking": {
+    "cabinet": {
+      "enabled": true,
+      "title": "Rendez-vous au cabinet",
+      "provider": "Google Calendar",
+      "url": "",
+      "location": "[Adresse / Ville]"
+    },
+    "remote": {
+      "enabled": true,
+      "title": "Rendez-vous à distance",
+      "provider": "Calendly",
+      "url": "",
+      "durationMinutes": 60,
+      "priceTtc": 60,
+      "paymentRequiredBeforeSession": true,
+      "bufferMinutes": 30
+    }
+  },
+  "contact": {
+    "enabled": true,
+    "intro": "Une question avant de réserver ? Laissez vos coordonnées et expliquez brièvement l’objet de votre demande."
+  },
+  "credentials": {
+    "label": "Praticienne diplômée NIJI",
+    "details": "QI-Praticien · QI-Synergie · Symbionergie"
+  }
+}
